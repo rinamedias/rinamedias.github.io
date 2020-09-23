@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 65%;
+    height: auto;
+    background: white;
+    margin: auto;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logo {
+    font-size: xx-large;
+    padding: 30px 0 30px 10px;
+    font-family: Impact;
+    font-weight: bolder;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(236, 170, 190);
+    border: 1px solid rgb(250, 186, 225);
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+article {
+    width: 98.8%;
+    height: auto;
+    border-radius: 3px;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid gainsboro;
+    clear: both;
+}
+
+article p {
+    padding: 5px 6px 5px 5px;
+    line-height: 1.5;
+}
+
+article .konten {
+    width: 23.5%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    float: left;
+}
+
+article .konten img {
+    width: 95.8%;
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pemesanan {
+    text-align: center;
+    font-family: monospace;
+    font-size: 28px;
+}
